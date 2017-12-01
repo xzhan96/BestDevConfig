@@ -1,0 +1,3 @@
+# !/bin/bash
+
+grep $1 * --color -rnw --include=*cc --include=*h --include=*cpp --exclude-dir=out --exclude=*test.cc --exclude=*patch --exclude=$2
